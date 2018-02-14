@@ -27,18 +27,18 @@ matplotlib
 4. inertia: inertia weight for global and local search control (default: 0.7)
 
 ### DE
-weight_factor (default: 0.8)
-crossover_rate (default: 0.9)
+1. weight_factor (default: 0.8)
+2. crossover_rate (default: 0.9)
 
 ### saDE
-p1: the probability of applying strategy "rand/l/bin" (default: 0.5)
-p2: the probability of applying strategy "current to best/2/bin" (default: 0.5)
-learningPeriod: the probability of applying those two strategies update (default: 50)
-crPeriod: CR values update (default: 5)
-crmUpdatePeriod: CRm update (default: 25)
+1. p1: the probability of applying strategy "rand/l/bin" (default: 0.5)
+2. p2: the probability of applying strategy "current to best/2/bin" (default: 0.5)
+3. learningPeriod: the probability of applying those two strategies update (default: 50)
+4. crPeriod: CR values update (default: 5)
+5. crmUpdatePeriod: CRm update (default: 25)
 
 ### coDE
-param_pool: pool of parameters (suggested: param_pool =[[1.0,0.1], [1.0,0.9], [0.8,0.2]])
+1. param_pool: pool of parameters (suggested: param_pool =[[1.0,0.1], [1.0,0.9], [0.8,0.2]])
 
 ## References
 Self-adaptive Differential Evolution Algorithm for Numerical Optimization (2005)
